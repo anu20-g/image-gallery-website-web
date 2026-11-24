@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visual Image Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Curated Photo Gallery</h2>
+    <div class="filters">
+        <button class="active" onclick="filterGal('all')">All</button>
+        <button onclick="filterGal('nature')">Nature</button>
+        <button onclick="filterGal('tech')">Tech</button>
+    </div>
+    <div class="grid" id="galleryGrid">
+        <div class="item nature"><div class="placeholder green">Forest Sunrise</div></div>
+        <div class="item tech"><div class="placeholder blue">Silicon Microchip</div></div>
+        <div class="item nature"><div class="placeholder green">Mountain Peak</div></div>
+        <div class="item tech"><div class="placeholder blue">Server Rack</div></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

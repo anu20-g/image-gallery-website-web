@@ -1,0 +1,1 @@
+# Image Gallery Website - Team 1\n\nDisplay images in a grid and add image preview or category filtering.\n\n## Preview\nOpen `index.html` in any modern web browser.\n
